@@ -1,0 +1,90 @@
+2022-04-13 17:39:10,662 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 11.0.14 on DESKTOP-LROHN8B with PID 8456 (started by haose in D:\user\javacode\community)
+2022-04-13 17:39:10,667 INFO [main] c.n.c.LoggerTests [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:39:12,918 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 17:41:43,119 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 11.0.14 on DESKTOP-LROHN8B with PID 4908 (started by haose in D:\user\javacode\community)
+2022-04-13 17:41:43,132 INFO [main] c.n.c.LoggerTests [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:41:45,247 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 17:41:57,894 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 11.0.14 on DESKTOP-LROHN8B with PID 17252 (started by haose in D:\user\javacode\community)
+2022-04-13 17:41:57,898 INFO [main] c.n.c.LoggerTests [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:41:59,926 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 17:42:39,487 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 11.0.14 on DESKTOP-LROHN8B with PID 7576 (started by haose in D:\user\javacode\community)
+2022-04-13 17:42:39,490 INFO [main] c.n.c.LoggerTests [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:42:41,329 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 17:43:32,724 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 11.0.14 on DESKTOP-LROHN8B with PID 2240 (started by haose in D:\user\javacode\community)
+2022-04-13 17:43:32,727 INFO [main] c.n.c.LoggerTests [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:43:34,795 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 17:43:41,773 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.14 on DESKTOP-LROHN8B with PID 17152 (D:\user\javacode\community\target\classes started by haose in D:\user\javacode\community)
+2022-04-13 17:43:41,776 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:43:41,828 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-13 17:43:41,829 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-13 17:43:43,033 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-13 17:43:43,035 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-13 17:43:43,035 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-13 17:43:43,035 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-13 17:43:43,040 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-13 17:43:43,049 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 17:43:43,049 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-13 17:43:43,049 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-13 17:43:43,160 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-13 17:43:43,161 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1331 ms
+2022-04-13 17:43:43,436 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-04-13 17:43:43,448 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 17:44:40,398 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.14 on DESKTOP-LROHN8B with PID 11052 (D:\user\javacode\community\target\classes started by haose in D:\user\javacode\community)
+2022-04-13 17:44:40,400 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:44:40,447 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-13 17:44:40,447 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-13 17:44:41,649 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-13 17:44:41,650 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-13 17:44:41,651 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-13 17:44:41,651 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-13 17:44:41,654 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-13 17:44:41,664 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 17:44:41,665 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-13 17:44:41,665 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-13 17:44:41,776 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-13 17:44:41,777 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1329 ms
+2022-04-13 17:44:42,063 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-04-13 17:44:42,077 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 17:46:01,930 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.14 on DESKTOP-LROHN8B with PID 16484 (D:\user\javacode\community\target\classes started by haose in D:\user\javacode\community)
+2022-04-13 17:46:01,932 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:46:01,977 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-13 17:46:01,977 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-13 17:46:03,060 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-13 17:46:03,061 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-13 17:46:03,062 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-13 17:46:03,062 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-13 17:46:03,067 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-13 17:46:03,077 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 17:46:03,078 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-13 17:46:03,078 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-13 17:46:03,188 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-13 17:46:03,188 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1210 ms
+2022-04-13 17:46:03,769 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-13 17:46:03,958 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-04-13 17:46:03,983 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 17:46:04,005 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-04-13 17:46:04,020 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.624 seconds (JVM running for 3.933)
+2022-04-13 17:46:12,036 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-13 17:46:12,037 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-04-13 17:46:12,038 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-04-13 17:46:12,100 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-04-13 17:46:12,252 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-04-13 17:46:29,419 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 11.0.14 on DESKTOP-LROHN8B with PID 13884 (started by haose in D:\user\javacode\community)
+2022-04-13 17:46:29,421 INFO [main] c.n.c.LoggerTests [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-13 17:46:32,253 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-13 17:46:32,726 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 4.137 seconds (JVM running for 5.775)
+2022-04-13 17:46:33,325 INFO [main] c.n.c.LoggerTests [LoggerTests.java:22] info log

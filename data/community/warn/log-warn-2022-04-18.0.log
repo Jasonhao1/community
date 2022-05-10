@@ -1,0 +1,17 @@
+2022-04-18 19:55:38,320 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 19:59:56,670 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:02:54,667 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:02:57,556 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:02:57,663 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'alphaController' method 
+com.nowcode.community.controller.AlphaController#setCookie(HttpServletResponse)
+to {GET [/alpha/cookie/set]}: There is already 'alphaController' bean method
+com.nowcode.community.controller.AlphaController#getCookie() mapped.
+2022-04-18 20:04:00,114 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:04:02,624 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:06:32,977 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:06:36,686 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:15:40,949 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:16:39,434 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:17:06,404 WARN [http-nio-8080-exec-3] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [221] milliseconds.
+2022-04-18 20:20:18,144 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-18 20:20:21,802 WARN [restartedMain] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
