@@ -105,7 +105,7 @@ public class UserService implements CommunityConstant {
         }
     }
 
-    public Map<String, Object> login(String username, String password, int expiredSecond) {
+    public Map<String, Object> login(String username, String password, int expiredSeconds) {
         Map<String, Object> map = new HashMap<>();
 
         if (StringUtils.isBlank(username)) {
@@ -113,7 +113,7 @@ public class UserService implements CommunityConstant {
             return map;
         }
         if (StringUtils.isBlank(password)) {
-            map.put("passwordMsg", "账号不能为空！");
+            map.put("passwordMsg", "密码不能为空！");
             return map;
         }
 
@@ -129,23 +129,31 @@ public class UserService implements CommunityConstant {
         }
 
         //验证密码
-        password=CommunityUtil.md5(password+user.getStatus());
-        if (!user.getPassword().equals(password)){
-            map.put("PasswordMsg","密码不正确！");
+        password = CommunityUtil.md5(password + user.getSalt());
+        if (!user.getPassword().equals(password)) {
+            map.put("passwordMsg", "密码不正确！");
             return map;
         }
         //生成凭证
-        LoginTicket loginTicket=new LoginTicket();
+        LoginTicket loginTicket = new LoginTicket();
         loginTicket.setUserId(user.getId());
         loginTicket.setTicket(CommunityUtil.generateUUID());
         loginTicket.setStatus(0);
-        loginTicket.setExpired(new Date(System.currentTimeMillis()+expiredSecond*1000));
+        loginTicket.setExpired(new Date(System.currentTimeMillis() + expiredSeconds * 1000));
         loginTicketMapper.insertLoginTicket(loginTicket);
 
-        map.put("ticket",loginTicket.getTicket());
+        map.put("ticket", loginTicket.getTicket());
 
         return map;
 
 
+    }
+
+    public void logout(String ticket){
+        loginTicketMapper.updateStatus(ticket,1);
+    }
+
+    public LoginTicket findLoginTicket (String ticket){
+        return loginTicketMapper.selectByTicket(ticket);
     }
 }

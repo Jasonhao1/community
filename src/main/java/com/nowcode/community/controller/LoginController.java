@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -28,7 +29,7 @@ import java.util.Map;
 @Controller
 public class LoginController implements CommunityConstant {
 
-    private static final Logger logger =  LoggerFactory.getLogger(LoginController.class);
+    private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     @Autowired
     private UserService userService;
@@ -103,34 +104,39 @@ public class LoginController implements CommunityConstant {
 
     }
 
-    @RequestMapping(path = "/login",method = RequestMethod.POST)
-    public String login(String username,String password,String code,boolean rememberMe,
-                        Model model,HttpSession session,HttpServletResponse response){
+    @RequestMapping(path = "/login", method = RequestMethod.POST)
+    public String login(String username, String password, String code, boolean rememberMe,
+                        Model model, HttpSession session, HttpServletResponse response) {
         //检查验证码
         String kaptcha = (String) session.getAttribute("kaptcha");
-        if (StringUtils.isBlank(kaptcha)||StringUtils.isBlank(code)||!kaptcha.equalsIgnoreCase(code)){
-            model.addAttribute("codeMsg","验证码不正确");
+        if (StringUtils.isBlank(kaptcha) || StringUtils.isBlank(code) || !kaptcha.equalsIgnoreCase(code)) {
+            model.addAttribute("codeMsg", "验证码不正确");
             return "/site/login";
         }
 
         //检查账号、密码
-        int expireSeconds=rememberMe ? REMEMBER_EXPIRED_SECONDS : DEFAULT_EXPIRED_SECONDS;
-        userService.login(username,password,expireSeconds);
-        Map<String,Object>map=userService.login(username,password,expireSeconds);
-        if (map.containsKey("ticket")){
-            Cookie cookie = new Cookie("ticket",map.get("ticket").toString());
+        int expiredSeconds = rememberMe ? REMEMBER_EXPIRED_SECONDS : DEFAULT_EXPIRED_SECONDS;
+        userService.login(username, password, expiredSeconds);
+        Map<String, Object> map = userService.login(username, password, expiredSeconds);
+        if (map.containsKey("ticket")) {
+            Cookie cookie = new Cookie("ticket", map.get("ticket").toString());
             cookie.setPath(contextPath);
-            cookie.setMaxAge(expireSeconds);
+            cookie.setMaxAge(expiredSeconds);
             response.addCookie(cookie);
             return "redirect:/index";
-        }else {
-            model.addAttribute("usernameMsg",map.get("usernameMsg"));
-            model.addAttribute("passwordMsg",map.get("passwordMsg"));
+        } else {
+            model.addAttribute("usernameMsg", map.get("usernameMsg"));
+            model.addAttribute("passwordMsg", map.get("passwordMsg"));
             return "/site/login";
         }
 
     }
 
+    @RequestMapping(path = "/logout",method = RequestMethod.GET)
+    public String logout(@CookieValue("ticket") String ticket){
+        userService.logout(ticket);
+        return "redirect:/login";
+    }
 
 
 }
